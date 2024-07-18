@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1237</width>
+    <height>827</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>531</width>
+      <height>661</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>660</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="load">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>660</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>0</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="compare">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>110</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Compare</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="summ">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>110</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Summ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="multiple">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>0</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Multiple</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ans_point">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>0</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Answer in point</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="div">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>110</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Division</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="all_answers">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>110</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>All natural answers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deriv">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>0</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Deriv</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>-1000</y>
+      <width>381</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>-1000</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Write your polinom</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable2_num">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter polinom number</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="enter_var">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>202</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Var</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Val</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>130</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2_var">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter variables</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_1">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter first polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_2">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter second polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_3">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter first polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_4">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter second polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_5">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter first polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_6">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter second polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_7">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter first polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_8">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>230</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter second polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_9">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>640</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter polinom number</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_10">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>640</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter the order of the derivative</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_11">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter polinom number</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>-1000</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_2">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_3">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_4">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_5">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_6">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_7">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_8">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_12">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter variable</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="enter_pol_num_ans_point">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_8">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_10">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>640</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_11">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>640</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_12">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_13">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_9">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>660</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter deriv order </string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_14">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>-1000</y>
+      <width>104</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_10">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>220</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>660</y>
+      <width>111</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>-1000</x>
+      <y>660</y>
+      <width>121</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="textEdit_15">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>560</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save1_11">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>540</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable3_num_13">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>550</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter polinom number</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1237</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Анатолий топ, остальным соболезную</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
